@@ -125,7 +125,8 @@ export default class App extends React.Component {
           <View style={{flex:.1, marginTop:0, marginBottom:20}}>
             
             <ScrollView style={{marginTop:-360, textAlign:'center', marginLeft:10}}>
-          {TranslatorConfiguration.setConfig(ProviderTypes.Google, '<<< Use Your Google API Key Here', this.state.languageCode2)}       // here providertypes.google is there because i have used here google you can also use microsoft so for microsoft it will be ProviderTypes.Microsoft and then your Microsoft API key
+          {TranslatorConfiguration.setConfig(ProviderTypes.Google, '<<< Use Your Google API Key Here', this.state.languageCode2)}       // here providertypes.google is there because 
+            //  i have used here google you can also use microsoft so for microsoft it will be ProviderTypes.Microsoft and then your Microsoft API key
           <PowerTranslator text={this.state.inputText[0]}
                 style={{ ...styles.text,textAlign: 'center', marginTop: 0, marginLeft:9, marginRight:20 }}
               />
